@@ -1,0 +1,68 @@
+.outer-box .logs-table,
+.outer-box.logs-table .logs {
+    display: inline-block;
+    margin-top: -37px;
+    width: 800px;
+    margin-left: 390px;
+}
+.outer-box .logs-table .table tbody tr td {
+    border: 1px solid #ccc;
+}
+.outer-box .logs-table .table tbody tr th {
+    border-left: 1px solid #ccc;
+}
+.outer-box .logs-table .table thead tr th {
+    border: 2px solid #215259;
+}
+.outer-box .logs-table .add,
+.outer-box .logs-table .return-logs {
+    float: right;
+    margin-top: -30px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+.outer-box .logs-table .logs {
+    margin-bottom: 10px;
+}
+.outer-box .logs-table .users {
+    width: 130px;
+    height: 100%;
+    border-right: 1px solid #ccc;
+}
+.outer-box .logs-table .users>img {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+.outer-box .logs-table .users .username {
+    margin-left: 40px;
+}
+.outer-box .logs-table .title {
+    position: absolute;
+    top: 0;
+    width: 668px;
+    height: 60px;
+    margin-left: 130px;
+    border-bottom: 1px solid #ccc;
+    background-color: #fff;
+    text-align: left;
+}
+.outer-box .logs-table .title>span {
+    color: #ff0000;
+}
+.outer-box .logs-table .title .time {
+    margin-left: 160px;
+}
+.outer-box .logs-table .title .btn-close {
+    float: right;
+    margin-right: 20px;
+}
+.outer-box .logs-table .content {
+    position: relative;
+    bottom: 90px;
+    left: 130px;
+    width: 668px;
+}
+.outer-box .logs-table .content>p {
+    margin: 10px;
+}

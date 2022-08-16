@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE beans [
+        <!ELEMENT beans (bean*)>
+        <!ELEMENT bean (property*)>
+        <!ELEMENT property (#PCDATA)>
+
+        <!ATTLIST bean id ID #REQUIRED>
+        <!ATTLIST bean class CDATA #IMPLIED>
+        <!ATTLIST property name CDATA #IMPLIED>
+        <!ATTLIST property ref IDREF #IMPLIED>
+]>
+
+<beans>
+    <bean id="userBasicDAO" class="com.pro12.qqzone.dao.impl.UserBasicDAOImpl"></bean>
+    <bean id="topicDAO" class="com.pro12.qqzone.dao.impl.TopicDAOImpl"></bean>
+
+    <bean id="userBasicService" class="com.pro12.qqzone.services.impl.UserBasicServiceImpl">
+        <property name="userBasicDAO" ref="userBasicDAO"></property>
+    </bean>
+    <bean id="topicService" class="com.pro12.qqzone.services.impl.TopicServiceImpl">
+        <property name="topicDAO" ref="topicDAO"></property>
+    </bean>
+
+    <bean id="user" class="com.pro12.qqzone.controller.UserController">
+        <property name="userBasicService" ref="userBasicService"></property>
+        <property name="topicService" ref="topicService"></property>
+    </bean>
+
+</beans>

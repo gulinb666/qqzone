@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body,html {
+    font-size: 14px;
+}
+a {
+    color: #333;
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+.outer-box {
+    width: 1200px;
+    margin: 0 auto;
+}
+.outer-box .title {
+    width: 100%;
+    height: 100px;
+    padding-top: 20px;
+    background-color: pink;
+    text-align: center;
+}
+.outer-box .left-list {
+    display: inline-block;
+    width: 300px;
+}
+.outer-box .left-list h3 {
+    margin: 20px 0;
+}
+.outer-box .left-list .list-group {
+    margin-left: 30px;
+}
+.outer-box .welcome {
+    float: right;
+}
+.copyright {
+    width: 100%;
+    height: 80px;
+    margin-top: 20px;
+    background-color: pink;
+    text-align: center;
+    line-height: 80px;
+    font-size: 16px;
+}
