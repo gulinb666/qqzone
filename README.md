@@ -1,5 +1,5 @@
 # QQZone项目(JavaWeb)
-该项目类似于qq空间，功能(**发表日志，回复日志，楼主回复，好友列表，删除日志，删除回复**)，原项目教程在b站上的尚硅谷的JavaWeb视频，我把剩下的控制主人回复和添加回复做完了，虽然也遇到了很多坑。本项目采用(**maven,tomcat(8.5.81)**)构建，前端采用了bootstrap样式库优化页面。
+该项目类似于qq空间，功能(**发表日志，回复日志，楼主回复，好友列表，删除日志，删除回复**)，原项目教程在b站上的尚硅谷的JavaWeb视频，我把剩下的控制主人回复和添加日志做完了，虽然也遇到了很多坑。本项目采用(**maven,tomcat(8.5.81)**)构建，前端采用了bootstrap样式库优化页面。
 
 lib文件夹里放的都是jar包，无需自己再去找jar包下载，resources放的是xml配置文件，不要删除。
 
@@ -7,7 +7,7 @@ java文件夹里面的myssm里都是配置文件，主要功能实现在qqzone�
 
 > 启动tomcat的url
 ```
-http://localhost:8080/pro12/page.do?operate=page&page=login
+http://localhost:8080/'当前项目的名字'/page.do?operate=page&page=login
 ```
 > 数据库结构
 ```
